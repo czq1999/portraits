@@ -35,6 +35,7 @@ def merge_and_truncate(
       removed_thumb_paths: 因淘汰被踢出的记录的 thumb_path 列表（用于删除磁盘文件）
     """
     by_id: dict[str, dict] = {p["id"]: p for p in existing}
+    existing_ids = {p["id"] for p in existing}
     added: list[NormalizedPhoto] = []
     for np in new_photos:
         if np.id in by_id:
@@ -49,7 +50,7 @@ def merge_and_truncate(
     kept_ids = {p["id"] for p in keep}
     # 仅当一个 id 既被淘汰又不在新增（也就是说本来就在 existing 里）时，才需要删 thumb
     removed_thumb_paths = [
-        p["thumb_path"] for p in drop if p.get("thumb_path") and p["id"] not in kept_ids
+        p["thumb_path"] for p in drop if p.get("thumb_path") and p["id"] in existing_ids
     ]
 
     # 如果新加入的照片本身就被立刻淘汰（比 max_keep 边界还旧），从 added 移除以免下游白下载
