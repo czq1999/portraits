@@ -4,8 +4,10 @@ import { formatDate, formatExif, formatPlatform } from "../lib/format";
 const SWIPE_THRESHOLD = 60;
 
 export default function init(photos: Photo[]): void {
+  console.log("[lightbox] init called, photos:", photos.length);
   const dialog = document.getElementById("lightbox") as HTMLDialogElement | null;
-  if (!dialog) return;
+  if (!dialog) { console.error("[lightbox] dialog#lightbox not found!"); return; }
+  console.log("[lightbox] dialog found, binding handlers...");
 
   const img = document.getElementById("lb-img") as HTMLImageElement;
   const title = document.getElementById("lb-title")!;
@@ -66,8 +68,11 @@ export default function init(photos: Photo[]): void {
   }
 
   // Card clicks
-  document.querySelectorAll<HTMLElement>(".card-trigger[data-id]").forEach((el) => {
+  const cards = document.querySelectorAll<HTMLElement>(".card-trigger[data-id]");
+  console.log("[lightbox] card-trigger elements found:", cards.length);
+  cards.forEach((el) => {
     el.addEventListener("click", () => {
+      console.log("[lightbox] card clicked, data-id:", el.getAttribute("data-id"));
       const id = el.getAttribute("data-id");
       if (id) open(id);
     });

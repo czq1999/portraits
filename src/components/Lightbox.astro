@@ -24,8 +24,16 @@ const { photos } = Astro.props;
 
 <script>
   import init from "~/scripts/lightbox";
-  const data = JSON.parse(document.getElementById("lb-data")!.textContent || "[]");
-  init(data);
+  try {
+    const el = document.getElementById("lb-data");
+    console.log("[lightbox] lb-data element found:", !!el);
+    const data = JSON.parse(el!.textContent || "[]");
+    console.log("[lightbox] parsed photos count:", Array.isArray(data) ? data.length : "not array");
+    init(data);
+    console.log("[lightbox] init() completed");
+  } catch (err) {
+    console.error("[lightbox] init error:", err);
+  }
 </script>
 
 <style>
