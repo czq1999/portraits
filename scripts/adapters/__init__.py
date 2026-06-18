@@ -11,3 +11,7 @@ ADAPTERS: dict[str, FetchFn] = {}
 
 def register(platform: str, fn: FetchFn) -> None:
     ADAPTERS[platform] = fn
+
+
+# 自动 import 各适配器模块以触发 register() 调用
+from scripts.adapters import unsplash  # noqa: E402,F401
