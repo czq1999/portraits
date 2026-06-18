@@ -1,0 +1,28 @@
+# 数据源配置。每条记录描述一个抓取源。
+# 实现完成后请按需调整：替换 collection / group id 为你想追的实际清单。
+#
+# 支持的平台 / 类型：
+#   unsplash:  type=topic   id=<topic-slug>           e.g. people
+#              type=collection id=<collection-id>     e.g. 1114848
+#              type=search  query=<keywords>          e.g. portrait
+#   flickr:    type=group   id=<group-id|alias>       e.g. portraitart
+#              type=tag     tag=<tag>  sort=interestingness
+#   pexels:    type=search  query=<keywords>
+
+sources:
+  - platform: unsplash
+    type: topic
+    id: people
+
+  - platform: flickr
+    type: group
+    id: portraitart
+
+  - platform: flickr
+    type: tag
+    tag: portrait
+    sort: interestingness
+
+  - platform: pexels
+    type: search
+    query: portrait
