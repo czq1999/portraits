@@ -13,6 +13,11 @@ on:
       - "package-lock.json"
       - "tsconfig.json"
       - ".github/workflows/deploy.yml"
+  # 补上 GITHUB_TOKEN push 不触发其他 workflow 的缺口：
+  # update-photos 完成时自动触发 deploy
+  workflow_run:
+    workflows: ["Update photos"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
