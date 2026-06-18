@@ -1,0 +1,17 @@
+---
+import PhotoCard from "./PhotoCard.astro";
+import type { Photo } from "~/lib/photos";
+interface Props { photos: Photo[]; }
+const { photos } = Astro.props;
+---
+<section class="grid">
+  {photos.map((p, i) => <PhotoCard photo={p} index={i} />)}
+</section>
+<style>
+  .grid {
+    column-count: 1;
+    column-gap: 8px;
+  }
+  @media (min-width: 640px) { .grid { column-count: 2; } }
+  @media (min-width: 1024px) { .grid { column-count: 3; } }
+</style>

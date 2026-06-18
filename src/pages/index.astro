@@ -1,6 +1,10 @@
 ---
 import "~/styles/global.css";
-const total = 0;
+import PhotoGrid from "~/components/PhotoGrid.astro";
+import { loadPhotos } from "~/lib/photos";
+
+const photos = await loadPhotos();
+const total = photos.length;
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -11,6 +15,7 @@ const total = 0;
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
     <title>Portraits · 2026</title>
+    <meta name="description" content="A daily-updated portrait photography gallery." />
   </head>
   <body>
     <header class="site-header">
@@ -18,7 +23,13 @@ const total = 0;
       <div class="meta">{total} PHOTOS</div>
     </header>
     <main>
-      <p class="label">Photo grid coming in Task 12.</p>
+      {total === 0 ? (
+        <p class="label" style="text-align:center;margin-top:96px">
+          No photos yet. The first fetch will run via GitHub Actions.
+        </p>
+      ) : (
+        <PhotoGrid photos={photos} />
+      )}
     </main>
   </body>
 </html>

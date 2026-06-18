@@ -1,0 +1,13 @@
+[
+  {
+    "id": "unsplash:demo-1",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/demo-1",
+    "thumb_path": "thumbs/unsplash-demo-1.webp",
+    "author_name": "Sample Photographer",
+    "author_url": "https://unsplash.com/@sample",
+    "posted_at": "2026-06-17T09:00:00Z",
+    "exif": {}
+  }
+]
