@@ -14,4 +14,4 @@ def register(platform: str, fn: FetchFn) -> None:
 
 
 # 自动 import 各适配器模块以触发 register() 调用
-from scripts.adapters import flickr, unsplash  # noqa: E402,F401
+from scripts.adapters import flickr, pexels, unsplash  # noqa: E402,F401
