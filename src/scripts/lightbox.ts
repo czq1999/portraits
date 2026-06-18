@@ -67,15 +67,13 @@ export default function init(photos: Photo[]): void {
     render(next);
   }
 
-  // Card clicks
-  const cards = document.querySelectorAll<HTMLElement>(".card-trigger[data-id]");
-  console.log("[lightbox] card-trigger elements found:", cards.length);
-  cards.forEach((el) => {
-    el.addEventListener("click", () => {
-      console.log("[lightbox] card clicked, data-id:", el.getAttribute("data-id"));
-      const id = el.getAttribute("data-id");
-      if (id) open(id);
-    });
+  // Card clicks — 事件委托，不依赖 init 时 DOM 中是否有卡片
+  document.addEventListener("click", (e) => {
+    const card = (e.target as HTMLElement).closest(".card-trigger[data-id]");
+    if (!card) return;
+    const id = card.getAttribute("data-id");
+    console.log("[lightbox] card clicked via delegation, data-id:", id);
+    if (id) open(id);
   });
 
   // Keyboard
