@@ -50,19 +50,20 @@ class RunSummary:
 
 def _label(source: dict) -> str:
     sid = source.get("id") or source.get("query") or source.get("tag", "?")
-    return f"{source['platform']}:{source.get('type', '?')}:{sid}"
+    return f"{source.get('platform', '?')}:{source.get('type', '?')}:{sid}"
 
 
 def _gather(sources: list[dict], client: httpx.Client) -> tuple[list, RunSummary]:
     summary = RunSummary()
     candidates = []
     for src in sources:
-        label = _label(src)
         platform = src.get("platform")
         adapter = ADAPTERS.get(platform)
         if adapter is None:
+            label = _label(src)
             summary.failures.append((label, f"no adapter for platform {platform!r}"))
             continue
+        label = _label(src)
         try:
             photos = adapter(src, client)
         except AdapterError as e:

@@ -61,5 +61,5 @@ def delete_thumbs(thumb_paths: list[str], base_dir: Path) -> None:
         target = base_dir / rel
         try:
             target.unlink()
-        except FileNotFoundError:
+        except OSError:
             pass

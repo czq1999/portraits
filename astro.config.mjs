@@ -9,10 +9,4 @@ export default defineConfig({
   build: {
     assets: "_assets",
   },
-  vite: {
-    test: {
-      environment: "happy-dom",
-      globals: true,
-    },
-  },
 });
