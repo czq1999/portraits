@@ -1,6 +1,7 @@
 ---
 import "~/styles/global.css";
 import PhotoGrid from "~/components/PhotoGrid.astro";
+import Lightbox from "~/components/Lightbox.astro";
 import { loadPhotos } from "~/lib/photos";
 
 const photos = await loadPhotos();
@@ -30,6 +31,7 @@ const total = photos.length;
       ) : (
         <PhotoGrid photos={photos} />
       )}
+      <Lightbox photos={photos} />
     </main>
   </body>
 </html>

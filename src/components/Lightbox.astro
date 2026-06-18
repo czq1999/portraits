@@ -1,0 +1,124 @@
+---
+import type { Photo } from "~/lib/photos";
+interface Props { photos: Photo[]; }
+const { photos } = Astro.props;
+---
+<dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+  <div class="lb-image">
+    <img id="lb-img" alt="" />
+  </div>
+  <aside class="lb-info">
+    <div id="lb-title" class="lb-title"></div>
+    <a id="lb-author" class="lb-author" href="#" rel="noopener noreferrer" target="_blank"></a>
+    <div class="lb-meta">
+      <span id="lb-date" class="label"></span>
+      <span id="lb-platform" class="label"></span>
+    </div>
+    <ul id="lb-exif" class="lb-exif"></ul>
+    <a id="lb-original" class="lb-original" href="#" rel="noopener noreferrer" target="_blank">VIEW ON ORIGINAL →</a>
+  </aside>
+  <button id="lb-close" class="lb-close" aria-label="Close">×</button>
+</dialog>
+
+<script type="application/json" id="lb-data" set:html={JSON.stringify(photos)}></script>
+
+<script>
+  import init from "~/scripts/lightbox";
+  const data = JSON.parse(document.getElementById("lb-data")!.textContent || "[]");
+  init(data);
+</script>
+
+<style>
+  .lightbox {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    background: rgba(0,0,0,0.97);
+    color: var(--text);
+    display: none;
+  }
+  .lightbox[open] { display: grid; }
+  @media (min-width: 900px) {
+    .lightbox[open] { grid-template-columns: 70% 30%; }
+  }
+  @media (max-width: 899px) {
+    .lightbox[open] { grid-template-rows: 60% 40%; }
+  }
+  .lb-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background: #000;
+  }
+  .lb-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    box-shadow: var(--shadow);
+  }
+  .lb-info {
+    padding: 48px 40px;
+    border-left: 1px solid #1f1f1f;
+    overflow-y: auto;
+  }
+  .lb-title {
+    color: var(--heading);
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    min-height: 22px;
+  }
+  .lb-author {
+    display: block;
+    color: var(--muted);
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  .lb-author:hover { color: var(--heading); }
+  .lb-meta {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    border-top: 1px solid #1f1f1f;
+    padding-top: 16px;
+    margin-bottom: 16px;
+  }
+  .lb-exif {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 2;
+    letter-spacing: 0.05em;
+  }
+  .lb-exif li { font-variant-numeric: tabular-nums; }
+  .lb-original {
+    font-size: var(--label);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+    color: var(--muted);
+    border-top: 1px solid #1f1f1f;
+    padding-top: 16px;
+    display: inline-block;
+  }
+  .lb-original:hover { color: var(--heading); }
+  .lb-close {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    background: transparent;
+    border: 0;
+    color: var(--muted);
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .lb-close:hover { color: var(--heading); }
+</style>
