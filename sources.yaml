@@ -14,14 +14,17 @@ sources:
     type: topic
     id: people
 
-  - platform: flickr
-    type: group
-    id: portraitart
-
-  - platform: flickr
-    type: tag
-    tag: portrait
-    sort: interestingness
+  # Flickr 需要 Pro 订阅才能申请 API key，暂时注释掉
+  # 拿到 key 后取消注释即可恢复
+  #
+  # - platform: flickr
+  #   type: group
+  #   id: portraitart
+  #
+  # - platform: flickr
+  #   type: tag
+  #   tag: portrait
+  #   sort: interestingness
 
   - platform: pexels
     type: search
