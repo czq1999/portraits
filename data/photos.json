@@ -1007,6 +1007,18 @@
     "title": "Man with surfboards riding scooter on dirt road"
   },
   {
+    "id": "unsplash:OrVKxdgEVQk",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/man-with-beer-at-beach-cafe-overlooking-ocean-OrVKxdgEVQk",
+    "thumb_path": "thumbs/unsplash-OrVKxdgEVQk.webp",
+    "author_name": "Etienne Girardet",
+    "author_url": "https://unsplash.com/@etiennegirardet",
+    "posted_at": "2026-05-03T14:13:32Z",
+    "exif": {},
+    "title": "man sitting in a beach café enjoying his beer for aperitif."
+  },
+  {
     "id": "unsplash:JZfdb4F6Bro",
     "source": "unsplash",
     "source_kind": "topic:people",
@@ -1017,6 +1029,30 @@
     "posted_at": "2026-05-03T14:05:47Z",
     "exif": {},
     "title": "Woman wearing stacked gold and black bracelets"
+  },
+  {
+    "id": "unsplash:Q_YMZC-KfBA",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/woman-posing-surrounded-by-people-taking-photos-Q_YMZC-KfBA",
+    "thumb_path": "thumbs/unsplash-Q_YMZC-KfBA.webp",
+    "author_name": "Christian Agbede",
+    "author_url": "https://unsplash.com/@chriscreations__",
+    "posted_at": "2026-05-02T07:30:49Z",
+    "exif": {},
+    "title": "Woman posing surrounded by people taking photos"
+  },
+  {
+    "id": "unsplash:eXQVwRBDz3w",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/a-smiling-graduate-in-cap-and-gown-outdoors-eXQVwRBDz3w",
+    "thumb_path": "thumbs/unsplash-eXQVwRBDz3w.webp",
+    "author_name": "Christian Agbede",
+    "author_url": "https://unsplash.com/@chriscreations__",
+    "posted_at": "2026-05-02T07:30:49Z",
+    "exif": {},
+    "title": "A smiling graduate in cap and gown outdoors."
   },
   {
     "id": "unsplash:quHodnJCrw4",
