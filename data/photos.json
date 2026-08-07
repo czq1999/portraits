@@ -48,6 +48,18 @@
     "title": "Two people working on a patterned fabric with scissors."
   },
   {
+    "id": "unsplash:2T71E1j9Tls",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/young-woman-with-blonde-hair-smiling-on-a-green-couch-2T71E1j9Tls",
+    "thumb_path": "thumbs/unsplash-2T71E1j9Tls.webp",
+    "author_name": "Dwayne joe",
+    "author_url": "https://unsplash.com/@spliff_dj_joe",
+    "posted_at": "2026-08-04T08:12:01Z",
+    "exif": {},
+    "title": "Young woman with blonde hair smiling on a green couch."
+  },
+  {
     "id": "unsplash:Crwm9q2lHus",
     "source": "unsplash",
     "source_kind": "topic:people",
@@ -2386,17 +2398,5 @@
     "posted_at": "2026-06-26T11:30:05Z",
     "exif": {},
     "title": "Three people unload green crates from a truck."
-  },
-  {
-    "id": "unsplash:HZiOR-8-xVw",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/two-women-browsing-items-at-a-souvenir-shop-HZiOR-8-xVw",
-    "thumb_path": "thumbs/unsplash-HZiOR-8-xVw.webp",
-    "author_name": "Jamie Kettle",
-    "author_url": "https://unsplash.com/@jamiekettle10",
-    "posted_at": "2026-06-26T10:19:49Z",
-    "exif": {},
-    "title": "Two women browsing items at a souvenir shop."
   }
 ]
