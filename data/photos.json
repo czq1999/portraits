@@ -24,6 +24,30 @@
     "title": "People on a street in Paris looking up at the sky during golden hour."
   },
   {
+    "id": "unsplash:1ZFPQgGe8sI",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/people-wearing-solar-eclipse-glasses-1ZFPQgGe8sI",
+    "thumb_path": "thumbs/unsplash-1ZFPQgGe8sI.webp",
+    "author_name": "Valentin Lacoste",
+    "author_url": "https://unsplash.com/@valentinlacoste",
+    "posted_at": "2026-08-13T07:03:12Z",
+    "exif": {},
+    "title": "A group of people wearing solar eclipse glasses standing outside a building at dusk."
+  },
+  {
+    "id": "unsplash:9D6n3nNrf6M",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/people-with-eclipse-glasses-in-sunlight-9D6n3nNrf6M",
+    "thumb_path": "thumbs/unsplash-9D6n3nNrf6M.webp",
+    "author_name": "Valentin Lacoste",
+    "author_url": "https://unsplash.com/@valentinlacoste",
+    "posted_at": "2026-08-13T07:03:12Z",
+    "exif": {},
+    "title": "A group of people in golden hour light holding eclipse glasses outside a building."
+  },
+  {
     "id": "unsplash:mmBZGqSlEfY",
     "source": "unsplash",
     "source_kind": "topic:people",
@@ -46,6 +70,18 @@
     "posted_at": "2026-08-12T17:32:56Z",
     "exif": {},
     "title": "A smiling woman with blonde hair wearing a denim jacket by the water."
+  },
+  {
+    "id": "unsplash:52K0zImYla4",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/man-and-woman-making-silly-faces-52K0zImYla4",
+    "thumb_path": "thumbs/unsplash-52K0zImYla4.webp",
+    "author_name": "Max Ovcharenko",
+    "author_url": "https://unsplash.com/@chestmax",
+    "posted_at": "2026-08-11T20:32:33Z",
+    "exif": {},
+    "title": "A man in a shirt and tie and a woman making silly faces together."
   },
   {
     "id": "unsplash:Pm9-SRcOtlg",
@@ -118,6 +154,18 @@
     "posted_at": "2026-08-11T01:10:29Z",
     "exif": {},
     "title": "A person in a white robe pouring champagne into a glass for another person."
+  },
+  {
+    "id": "unsplash:lqLpdyGh6GY",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/woman-with-curly-hair-in-white-shirt-lqLpdyGh6GY",
+    "thumb_path": "thumbs/unsplash-lqLpdyGh6GY.webp",
+    "author_name": "Salvatore Elefante",
+    "author_url": "https://unsplash.com/@elefante61",
+    "posted_at": "2026-08-10T19:26:29Z",
+    "exif": {},
+    "title": "A woman with curly hair and gold hoop earrings in a white shirt."
   },
   {
     "id": "unsplash:FAk_BzefVCo",
@@ -418,6 +466,18 @@
     "posted_at": "2026-08-07T06:23:51Z",
     "exif": {},
     "title": "Three young people exiting a store with shopping bags."
+  },
+  {
+    "id": "unsplash:FVlJokObwiw",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/person-in-white-coat-by-orange-wall-FVlJokObwiw",
+    "thumb_path": "thumbs/unsplash-FVlJokObwiw.webp",
+    "author_name": "Denis Gorbuleac",
+    "author_url": "https://unsplash.com/@denisgsv",
+    "posted_at": "2026-08-05T20:53:03Z",
+    "exif": {},
+    "title": "A person in a white coat standing in a doorway against an orange wall."
   },
   {
     "id": "unsplash:4gmWBIkj5uA",
@@ -2338,65 +2398,5 @@
     "posted_at": "2026-07-07T22:58:30Z",
     "exif": {},
     "title": "Gone Fishing"
-  },
-  {
-    "id": "unsplash:JT6U9XE-pZ0",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/long-windblown-hair-frames-a-smiling-face-outdoors-JT6U9XE-pZ0",
-    "thumb_path": "thumbs/unsplash-JT6U9XE-pZ0.webp",
-    "author_name": "Tanya Prodaan",
-    "author_url": "https://unsplash.com/@tannnpro",
-    "posted_at": "2026-07-07T13:38:14Z",
-    "exif": {},
-    "title": "Long, windblown hair frames a smiling face outdoors."
-  },
-  {
-    "id": "unsplash:YO0Lqa6uWgc",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/smiling-young-man-running-in-a-blue-plaid-shirt-YO0Lqa6uWgc",
-    "thumb_path": "thumbs/unsplash-YO0Lqa6uWgc.webp",
-    "author_name": "Jonathan Majam",
-    "author_url": "https://unsplash.com/@jon__kelvin",
-    "posted_at": "2026-07-07T12:09:49Z",
-    "exif": {},
-    "title": "Smiling young man running in a blue plaid shirt."
-  },
-  {
-    "id": "unsplash:AR9fwq5ZUGg",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/golden-sunlight-streams-into-a-dark-tunnel-highlighting-people-AR9fwq5ZUGg",
-    "thumb_path": "thumbs/unsplash-AR9fwq5ZUGg.webp",
-    "author_name": "Tolga Ahmetler",
-    "author_url": "https://unsplash.com/@t_ahmetler",
-    "posted_at": "2026-07-07T10:36:03Z",
-    "exif": {},
-    "title": "Golden sunlight streams into a dark tunnel, highlighting people."
-  },
-  {
-    "id": "unsplash:x4AYFAI64R0",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/smiling-woman-in-red-hoodie-on-lake-x4AYFAI64R0",
-    "thumb_path": "thumbs/unsplash-x4AYFAI64R0.webp",
-    "author_name": "Karsten Winegeart",
-    "author_url": "https://unsplash.com/@_karsten",
-    "posted_at": "2026-07-06T21:41:13Z",
-    "exif": {},
-    "title": "Summer Fun"
-  },
-  {
-    "id": "unsplash:Z0GZMjLVtZU",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/woman-wrapped-in-american-flag-on-summer-lake-in-mccall-Z0GZMjLVtZU",
-    "thumb_path": "thumbs/unsplash-Z0GZMjLVtZU.webp",
-    "author_name": "Karsten Winegeart",
-    "author_url": "https://unsplash.com/@_karsten",
-    "posted_at": "2026-07-06T21:41:13Z",
-    "exif": {},
-    "title": "Summer Fun"
   }
 ]
