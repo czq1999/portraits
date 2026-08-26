@@ -204,6 +204,18 @@
     "title": "A double exposure silhouette of a person against a textured wall and building"
   },
   {
+    "id": "unsplash:hOP2CQ9dGWg",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/person-with-glasses-reaching-forward-hOP2CQ9dGWg",
+    "thumb_path": "thumbs/unsplash-hOP2CQ9dGWg.webp",
+    "author_name": "Kristina Bekher",
+    "author_url": "https://unsplash.com/@ninjagexly",
+    "posted_at": "2026-08-16T11:16:48Z",
+    "exif": {},
+    "title": "A person with long hair and glasses reaching toward the camera"
+  },
+  {
     "id": "unsplash:mK4UuWNuAXs",
     "source": "unsplash",
     "source_kind": "topic:people",
@@ -2386,17 +2398,5 @@
     "posted_at": "2026-07-12T18:51:49Z",
     "exif": {},
     "title": "Serene woman in red dress on rocky shore"
-  },
-  {
-    "id": "unsplash:IoQ842VQVEM",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/elegant-woman-in-red-dress-by-the-coast-IoQ842VQVEM",
-    "thumb_path": "thumbs/unsplash-IoQ842VQVEM.webp",
-    "author_name": "Christian Agbede",
-    "author_url": "https://unsplash.com/@chriscreations__",
-    "posted_at": "2026-07-12T18:51:49Z",
-    "exif": {},
-    "title": "Elegant woman in red dress by the coast"
   }
 ]
