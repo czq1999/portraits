@@ -156,6 +156,18 @@
     "title": "Two women in swimsuits on a pier overlooking the Gijón coastline in Spain"
   },
   {
+    "id": "unsplash:Td4E7RrLGvY",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/people-in-airport-jet-bridge-silhouettes-Td4E7RrLGvY",
+    "thumb_path": "thumbs/unsplash-Td4E7RrLGvY.webp",
+    "author_name": "Inga Gaile",
+    "author_url": "https://unsplash.com/@inga_images",
+    "posted_at": "2026-08-25T06:41:46Z",
+    "exif": {},
+    "title": "Silhouettes of people walking through an airport jet bridge against a warm orange sky"
+  },
+  {
     "id": "pexels:35832436",
     "source": "pexels",
     "source_kind": "search:portrait",
@@ -2386,17 +2398,5 @@
     "posted_at": "2026-07-15T13:52:08Z",
     "exif": {},
     "title": "Friends relax with cold drinks in red-and-white striped deckchairs at a busy summer street event."
-  },
-  {
-    "id": "unsplash:O4sLv36-k1w",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/rodeo-cowboy-falls-from-bucking-horse-dust-flying-O4sLv36-k1w",
-    "thumb_path": "thumbs/unsplash-O4sLv36-k1w.webp",
-    "author_name": "Tim Mossholder",
-    "author_url": "https://unsplash.com/@timmossholder",
-    "posted_at": "2026-07-14T20:22:39Z",
-    "exif": {},
-    "title": "Rodeo Dust and Pain"
   }
 ]
