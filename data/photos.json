@@ -1,5 +1,17 @@
 [
   {
+    "id": "pexels:36645466",
+    "source": "pexels",
+    "source_kind": "search:portrait",
+    "original_url": "https://www.pexels.com/photo/professional-businessman-smiling-in-office-corridor-36645466/",
+    "thumb_path": "thumbs/pexels-36645466.webp",
+    "author_name": "Atul Mohan",
+    "author_url": "https://www.pexels.com/@atulm0han",
+    "posted_at": "2026-09-21T07:35:16Z",
+    "exif": {},
+    "title": "A confident businessman posing and smiling in a modern office corridor."
+  },
+  {
     "id": "pexels:30968488",
     "source": "pexels",
     "source_kind": "search:portrait",
@@ -2338,65 +2350,5 @@
     "posted_at": "2026-08-01T05:24:24Z",
     "exif": {},
     "title": "Black and white photo of a person taking a picture indoors."
-  },
-  {
-    "id": "pexels:17191688",
-    "source": "pexels",
-    "source_kind": "search:portrait",
-    "original_url": "https://www.pexels.com/photo/a-woman-posing-against-portraits-hanging-on-the-wall-17191688/",
-    "thumb_path": "thumbs/pexels-17191688.webp",
-    "author_name": "Esra Korkmaz",
-    "author_url": "https://www.pexels.com/@esrakorkmaz",
-    "posted_at": "2026-08-01T05:24:24Z",
-    "exif": {},
-    "title": "Black and white portrait of a woman with curly hair standing against a wall with framed portraits."
-  },
-  {
-    "id": "pexels:16155640",
-    "source": "pexels",
-    "source_kind": "search:portrait",
-    "original_url": "https://www.pexels.com/photo/man-with-curly-gray-hair-16155640/",
-    "thumb_path": "thumbs/pexels-16155640.webp",
-    "author_name": "Enver GÜLMEZ",
-    "author_url": "https://www.pexels.com/@enver-gulmez-507867534",
-    "posted_at": "2026-08-01T05:24:24Z",
-    "exif": {},
-    "title": "Close-up portrait of a senior man with curly gray hair and a scarf."
-  },
-  {
-    "id": "pexels:12174516",
-    "source": "pexels",
-    "source_kind": "search:portrait",
-    "original_url": "https://www.pexels.com/photo/grayscale-photo-of-a-man-holding-a-camera-while-taking-photo-12174516/",
-    "thumb_path": "thumbs/pexels-12174516.webp",
-    "author_name": "Anton",
-    "author_url": "https://www.pexels.com/@anton-217419690",
-    "posted_at": "2026-08-01T05:24:24Z",
-    "exif": {},
-    "title": "A monochrome photograph of a man capturing a self-portrait in front of a framed painting indoors."
-  },
-  {
-    "id": "pexels:37676879",
-    "source": "pexels",
-    "source_kind": "search:portrait",
-    "original_url": "https://www.pexels.com/photo/thoughtful-man-in-cozy-living-room-setting-37676879/",
-    "thumb_path": "thumbs/pexels-37676879.webp",
-    "author_name": "Ali  Jafar",
-    "author_url": "https://www.pexels.com/@ali-jafar-851025332",
-    "posted_at": "2026-08-01T05:24:24Z",
-    "exif": {},
-    "title": "Man in casual wear seated indoors with art and warm lighting."
-  },
-  {
-    "id": "unsplash:jVEudHlZ7hc",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/woman-with-curly-hair-wearing-a-dark-sweater-jVEudHlZ7hc",
-    "thumb_path": "thumbs/unsplash-jVEudHlZ7hc.webp",
-    "author_name": "Bade Saba",
-    "author_url": "https://unsplash.com/@badesaba",
-    "posted_at": "2026-07-31T16:40:24Z",
-    "exif": {},
-    "title": "Woman with curly hair wearing a dark sweater"
   }
 ]
