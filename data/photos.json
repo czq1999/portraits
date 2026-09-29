@@ -1,5 +1,41 @@
 [
   {
+    "id": "pexels:35045743",
+    "source": "pexels",
+    "source_kind": "search:portrait",
+    "original_url": "https://www.pexels.com/photo/portrait-of-a-smiling-woman-in-karnali-province-35045743/",
+    "thumb_path": "thumbs/pexels-35045743.webp",
+    "author_name": "Pete Miller Portraits",
+    "author_url": "https://www.pexels.com/@petemiller",
+    "posted_at": "2026-09-29T07:50:40Z",
+    "exif": {},
+    "title": "A smiling Nepali woman in traditional attire, showcasing cultural heritage in rural Nepal."
+  },
+  {
+    "id": "pexels:35045746",
+    "source": "pexels",
+    "source_kind": "search:portrait",
+    "original_url": "https://www.pexels.com/photo/smiling-woman-with-dog-in-rustic-nepali-village-35045746/",
+    "thumb_path": "thumbs/pexels-35045746.webp",
+    "author_name": "Pete Miller Portraits",
+    "author_url": "https://www.pexels.com/@petemiller",
+    "posted_at": "2026-09-29T07:50:40Z",
+    "exif": {},
+    "title": "A cheerful Nepali woman pets a dog at a doorway in Karnali Province, Nepal."
+  },
+  {
+    "id": "pexels:29978151",
+    "source": "pexels",
+    "source_kind": "search:portrait",
+    "original_url": "https://www.pexels.com/photo/elegant-black-and-white-portrait-of-senior-woman-29978151/",
+    "thumb_path": "thumbs/pexels-29978151.webp",
+    "author_name": "Paolo Sbalzer",
+    "author_url": "https://www.pexels.com/@sbam",
+    "posted_at": "2026-09-29T07:50:40Z",
+    "exif": {},
+    "title": "Charming black and white portrait of a stylish senior woman, conveying wisdom and elegance."
+  },
+  {
     "id": "pexels:35045742",
     "source": "pexels",
     "source_kind": "search:portrait",
@@ -2362,41 +2398,5 @@
     "posted_at": "2026-08-11T01:10:29Z",
     "exif": {},
     "title": "A person in a white robe pouring champagne into a glass for another person."
-  },
-  {
-    "id": "unsplash:lqLpdyGh6GY",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/woman-with-curly-hair-in-white-shirt-lqLpdyGh6GY",
-    "thumb_path": "thumbs/unsplash-lqLpdyGh6GY.webp",
-    "author_name": "Salvatore Elefante",
-    "author_url": "https://unsplash.com/@elefante61",
-    "posted_at": "2026-08-10T19:26:29Z",
-    "exif": {},
-    "title": "A woman with curly hair and gold hoop earrings in a white shirt."
-  },
-  {
-    "id": "unsplash:FAk_BzefVCo",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/child-hanging-from-doorway-pull-up-bar-FAk_BzefVCo",
-    "thumb_path": "thumbs/unsplash-FAk_BzefVCo.webp",
-    "author_name": "Nathan Dumlao",
-    "author_url": "https://unsplash.com/@nate_dumlao",
-    "posted_at": "2026-08-10T17:44:54Z",
-    "exif": {},
-    "title": "A child hanging from a black pull-up bar in a white doorway."
-  },
-  {
-    "id": "unsplash:enlYHTSTkwg",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/person-holding-starfish-near-harbor-enlYHTSTkwg",
-    "thumb_path": "thumbs/unsplash-enlYHTSTkwg.webp",
-    "author_name": "Nataliya Melnychuk",
-    "author_url": "https://unsplash.com/@natinati",
-    "posted_at": "2026-08-10T12:49:26Z",
-    "exif": {},
-    "title": "A person holding a white starfish against their leg near a harbor."
   }
 ]
