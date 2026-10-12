@@ -12,6 +12,18 @@
     "title": "Elderly woman in traditional Nepali clothing, showcasing cultural heritage in Karnali Province."
   },
   {
+    "id": "unsplash:toIDJ_3P2a4",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/person-in-silhouette-on-rocky-outcrop-toIDJ_3P2a4",
+    "thumb_path": "thumbs/unsplash-toIDJ_3P2a4.webp",
+    "author_name": "Rafael Garcin",
+    "author_url": "https://unsplash.com/@nimbus_vulpis",
+    "posted_at": "2026-10-09T16:57:44Z",
+    "exif": {},
+    "title": "A person in silhouette on a rocky outcrop against shimmering water at golden hour"
+  },
+  {
     "id": "unsplash:CGBXGbmnHWM",
     "source": "unsplash",
     "source_kind": "topic:people",
@@ -1776,6 +1788,18 @@
     "title": "A man in a baseball cap and t-shirt against a clear sky"
   },
   {
+    "id": "unsplash:QambyX-4D_Q",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/person-with-basket-on-hanoi-train-tracks-QambyX-4D_Q",
+    "thumb_path": "thumbs/unsplash-QambyX-4D_Q.webp",
+    "author_name": "Vincent Yap",
+    "author_url": "https://unsplash.com/@chonky_films",
+    "posted_at": "2026-09-09T04:56:00Z",
+    "exif": {},
+    "title": "A person in a conical hat carrying a basket along train tracks in Hanoi"
+  },
+  {
     "id": "unsplash:7sO8dAzwQM8",
     "source": "unsplash",
     "source_kind": "topic:people",
@@ -2374,29 +2398,5 @@
     "posted_at": "2026-08-30T12:57:58Z",
     "exif": {},
     "title": "Silhouette of an adult carrying a child on their shoulders against a warm sky"
-  },
-  {
-    "id": "unsplash:oB0_IGEU0WQ",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/person-in-orange-jacket-against-sky-oB0_IGEU0WQ",
-    "thumb_path": "thumbs/unsplash-oB0_IGEU0WQ.webp",
-    "author_name": "Tony Chen",
-    "author_url": "https://unsplash.com/@tony1218",
-    "posted_at": "2026-08-30T12:57:58Z",
-    "exif": {},
-    "title": "A person in an orange jacket against a soft blue and pink sky"
-  },
-  {
-    "id": "unsplash:gB_rLvC70M4",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/woman-looking-out-from-tent-gB_rLvC70M4",
-    "thumb_path": "thumbs/unsplash-gB_rLvC70M4.webp",
-    "author_name": "Konrad Nowacki",
-    "author_url": "https://unsplash.com/@knowacki",
-    "posted_at": "2026-08-30T11:18:38Z",
-    "exif": {},
-    "title": "A woman with hair in a bun looking out from a tent"
   }
 ]
