@@ -48,6 +48,18 @@
     "title": "A baby wearing a striped hooded towel on a beach with straw umbrellas"
   },
   {
+    "id": "unsplash:hFjT1tdJXsY",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/person-in-striped-knit-sweater-hFjT1tdJXsY",
+    "thumb_path": "thumbs/unsplash-hFjT1tdJXsY.webp",
+    "author_name": "Bjorn Pierre",
+    "author_url": "https://unsplash.com/@bjornpierre",
+    "posted_at": "2026-11-07T20:40:52Z",
+    "exif": {},
+    "title": "A person with eyes closed and hands on head wearing a striped knit sweater against a green background"
+  },
+  {
     "id": "unsplash:5tTFMSatxNY",
     "source": "unsplash",
     "source_kind": "topic:people",
@@ -322,6 +334,18 @@
     "posted_at": "2026-11-04T08:33:31Z",
     "exif": {},
     "title": "Black and white photo of a person taking a picture indoors."
+  },
+  {
+    "id": "unsplash:nPGuwMrZkfY",
+    "source": "unsplash",
+    "source_kind": "topic:people",
+    "original_url": "https://unsplash.com/photos/four-people-on-bench-against-wall-nPGuwMrZkfY",
+    "thumb_path": "thumbs/unsplash-nPGuwMrZkfY.webp",
+    "author_name": "William Thompson",
+    "author_url": "https://unsplash.com/@wethompson",
+    "posted_at": "2026-11-03T19:13:28Z",
+    "exif": {},
+    "title": "NASSAU, BAHAMAS 2025:03:14 Cruise ship passengers resting on a bench against a bright pink wall while waiting for a taxi transport in Nassau, Bahamas."
   },
   {
     "id": "pexels:37676879",
@@ -2374,29 +2398,5 @@
     "posted_at": "2026-10-10T05:15:24Z",
     "exif": {},
     "title": "A woman in a red jumpsuit posing on a stone wall as a man photographs her"
-  },
-  {
-    "id": "unsplash:toIDJ_3P2a4",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/person-in-silhouette-on-rocky-outcrop-toIDJ_3P2a4",
-    "thumb_path": "thumbs/unsplash-toIDJ_3P2a4.webp",
-    "author_name": "Rafael Garcin",
-    "author_url": "https://unsplash.com/@nimbus_vulpis",
-    "posted_at": "2026-10-09T16:57:44Z",
-    "exif": {},
-    "title": "A person in silhouette on a rocky outcrop against shimmering water at golden hour"
-  },
-  {
-    "id": "unsplash:rtZdyCjInkc",
-    "source": "unsplash",
-    "source_kind": "topic:people",
-    "original_url": "https://unsplash.com/photos/young-woman-among-tall-hollyhock-flowers-rtZdyCjInkc",
-    "thumb_path": "thumbs/unsplash-rtZdyCjInkc.webp",
-    "author_name": "Alina Chernovolova",
-    "author_url": "https://unsplash.com/@alinachernovol",
-    "posted_at": "2026-10-09T05:45:04Z",
-    "exif": {},
-    "title": "A young woman in a floral dress among tall hollyhock flowers in black and white"
   }
 ]
